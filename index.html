@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyonne Wambui Maina - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #2c5aa0;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        .contact-info a {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c5aa0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #2c5aa0;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .education-item::before, .experience-item::before {
+            content: "•";
+            color: #2c5aa0;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .degree, .job-title {
+            font-weight: bold;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        .institution, .company {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 3px;
+        }
+        
+        .dates {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .description {
+            color: #555;
+            margin-top: 5px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .skill-category {
+            margin-bottom: 15px;
+        }
+        
+        .skill-category h4 {
+            color: #2c5aa0;
+            font-size: 16px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        .skill-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .skill-list li {
+            margin-bottom: 4px;
+            padding-left: 15px;
+            position: relative;
+            color: #555;
+        }
+        
+        .skill-list li::before {
+            content: "▸";
+            color: #2c5aa0;
+            position: absolute;
+            left: 0;
+        }
+        
+        .professional-summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #2c5aa0;
+            margin-bottom: 25px;
+            font-style: italic;
+            color: #555;
+        }
+        
+        .references {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+                font-size: 12px;
+            }
+            
+            .name {
+                font-size: 24px;
+            }
+            
+            .section-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Vyonne Wambui Maina</div>
+        <div class="contact-info">
+            Kimathi Estate, Thika, Kenya<br>
+            Phone: +254 798 499 285 | +254 780 615 957<br>
+            Email: <a href="mailto:vishpino165@gmail.com">vishpino165@gmail.com</a><br>
+            LinkedIn: <a href="https://linkedin.com/in/vyonne-maina-552796250">linkedin.com/in/vyonne-maina-552796250</a>
+        </div>
+    </div>
+
+    <div class="professional-summary">
+        <strong>Professional Summary:</strong> Motivated Business Information Technology graduate and ALX Foundation Data Engineering professional with hands-on experience in web development, database management, and networking. Currently serving as an Attaché with the Ministry of Interior and National Administration. Passionate about leveraging technology solutions to drive business efficiency and data-driven decision making.
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="education-item">
+            <div class="degree">Professional Data Engineering Program</div>
+            <div class="institution">ALX Foundation</div>
+            <div class="dates">June 2024 - Present</div>
+            <div class="description">Comprehensive program covering data pipeline development, cloud technologies, and advanced analytics</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="degree">Bachelor of Business Information Technology</div>
+            <div class="institution">Mount Kenya University, Thika, Kenya</div>
+            <div class="dates">2022 - 2024 (Awaiting Graduation)</div>
+            <div class="description">Focused on business applications of information technology, systems analysis, and digital transformation</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="degree">Web Development Certificate</div>
+            <div class="institution">eMobile's Kenya, Nairobi, Kenya</div>
+            <div class="dates">May 2022 - August 2022</div>
+            <div class="description">Intensive program covering front-end and back-end web development technologies</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="degree">Introduction to Networking Certificate</div>
+            <div class="institution">Cisco</div>
+            <div class="dates">May 2024</div>
+            <div class="description">Foundational networking concepts and Cisco technologies certification</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="degree">Kenya Certificate of Secondary Education</div>
+            <div class="institution">Nakuru Girls High School, Nakuru, Kenya</div>
+            <div class="dates">2018 - 2022</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <div class="experience-item">
+            <div class="job-title">Attaché</div>
+            <div class="company">Ministry of Interior and National Administration</div>
+            <div class="dates">May 2024 - August 2025</div>
+            <div class="description">
+                • Support administrative operations and policy implementation within the ministry<br>
+                • Collaborate with cross-functional teams on national administration initiatives<br>
+                • Assist in data collection and analysis for departmental reporting<br>
+                • Contribute to digital transformation initiatives within government operations
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Technical & Professional Skills</h2>
+        
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Programming & Development</h4>
+                <ul class="skill-list">
+                    <li>Web Development (HTML, CSS, JavaScript)</li>
+                    <li>Mobile Development (Kotlin)</li>
+                    <li>Programming Languages (C, C++)</li>
+                    <li>Database Management & SQL</li>
+                    <li>Data Analysis & Engineering</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Technical Infrastructure</h4>
+                <ul class="skill-list">
+                    <li>Network Administration</li>
+                    <li>IT Support & Troubleshooting</li>
+                    <li>Artificial Intelligence Fundamentals</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Cloud Technologies (Learning)</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Professional Competencies</h4>
+                <ul class="skill-list">
+                    <li>Project Management</li>
+                    <li>Team Collaboration & Leadership</li>
+                    <li>Written & Verbal Communication</li>
+                    <li>Problem-Solving & Critical Thinking</li>
+                    <li>Time Management & Organization</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Personal Attributes</h4>
+                <ul class="skill-list">
+                    <li>Adaptability & Learning Agility</li>
+                    <li>Attention to Detail</li>
+                    <li>Customer Service Orientation</li>
+                    <li>Cultural Sensitivity</li>
+                    <li>Continuous Learning Mindset</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">References</h2>
+        
+        <div class="references">
+            <strong>Josphat Maina</strong><br>
+            Project Manager, Tangazoletu<br>
+            Ministry of Interior and National Administration<br>
+            Department for Correctional Service<br>
+            Phone: +254 718 201 905
+        </div>
+    </div>
+</body>
+</html>
